@@ -42,40 +42,13 @@ export default function Navbar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    HR Management
+                    HR Lap
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#" onClick={handleEmpdetails}>
-                      HR Recruitment
-                      </a>
                       
-                    </li>
-                    {/* Sub-dropdowns under HR Recruitment */}
-                    <li className="nav-item dropdown">
-                      <a className="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Register
-                      </a>
-                      <ul className="dropdown-menu">
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            search
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            management
-                          </a>
-                        </li>
-                        {/* Add more sub-register items as needed */}
-                      </ul>
-                    </li>
-                    <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
                       <a className="dropdown-item" href="#">
-                        Vender Management
+                        Vender Lap
                       </a>
                     </li>
 
@@ -84,7 +57,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        Client Management
+                        Client Lap
                       </a>
                     </li>
 
@@ -93,7 +66,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        LIT Intern
+                       Internship Lap
                       </a>
                     </li>
                   </ul>
@@ -110,12 +83,12 @@ export default function Navbar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Employee Management
+                    Employee Lap
                   </a>
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#" onClick={handleEmpdetails}>
-                        Registartion
+                      Register
                       </a>
                     </li>
                     <li>
@@ -147,12 +120,12 @@ export default function Navbar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Finance Management
+                    Finance Lap
                   </a>
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#" onClick={handleEmpdetails}>
-                        Registartion
+                      Register
                       </a>
                     </li>
                     <li>
@@ -184,12 +157,12 @@ export default function Navbar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Assest Management
+                    Asset Lap
                   </a>
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#" onClick={handleEmpdetails}>
-                        Registartion
+                      Register
                       </a>
                     </li>
                     <li>
@@ -219,12 +192,12 @@ export default function Navbar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Co-working Space
-                  </a>
+                    CO-W Lap
+                    </a>
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#" onClick={handleEmpdetails}>
-                        First Floor
+                      Register
                       </a>
                     </li>
                     <li>
@@ -232,13 +205,53 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                      Second Floor
+                        Search
                       </a>
-                    
+                    </li>
+                    <li>
+                      <hr className="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Management
+                      </a>
                     </li>
                   </ul>
                 </li>
-
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    IT Lap
+                    </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#" onClick={handleEmpdetails}>
+                      Register
+                      </a>
+                    </li>
+                    <li>
+                      <hr className="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Search
+                      </a>
+                    </li>
+                    <li>
+                      <hr className="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Management
+                      </a>
+                    </li>
+                  </ul>
+                </li>
 
               </ul>
 
